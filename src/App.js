@@ -1,10 +1,9 @@
-import Scoreboard from './components/Scoreboard';
+import React from "react";
 import Board from './components/Board';
 
 function App() {
   return (
-    <div className="App">
-        <Scoreboard/>
+    <div className="app">
         <Board/>
     </div>
   );

@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  margin: 50px 0 50px 0;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  width: 750px;
+}
+
+.card img{
+  width: 250px;
+  height: 180px;
+}
